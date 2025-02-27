@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("../conexao.php");
+require_once("../conexao.php"); // Inclui a conexão
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST["email"]);
@@ -14,9 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($usuario && password_verify($senha, $usuario["senha"])) {
         $_SESSION["user_id"] = $usuario["id"];
         $_SESSION["user_nome"] = $usuario["nome"];
-        echo json_encode(["success" => true]);
+        header("Location: books.html");
+        exit;
     } else {
-        echo json_encode(["success" => false]);
+        echo "<script>alert('E-mail ou senha incorretos!'); window.location.href='login.html';</script>";
     }
 }
 ?>
