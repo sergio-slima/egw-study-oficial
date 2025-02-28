@@ -17,7 +17,7 @@
                 <input type="password" name="senha" placeholder="Senha" required>
                 <button type="submit">Entrar</button>
             </form>
-            <p>Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
+            <p>Não tem uma conta? <a href="register_page">Cadastre-se</a></p>
         </div>
         <div class="auth-image">
             <img src="./img/background.jpg" alt="Imagem ilustrativa">

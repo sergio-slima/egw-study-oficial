@@ -93,13 +93,13 @@ body, .books {
 .header {
     align-items: center;
     padding: 1rem 2.5rem;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 10;
     background: var(--black-color); /* transparent;*/
-    height: 6.25rem;
+    height: 110px;
   }
   
   .nav {
@@ -165,7 +165,7 @@ body, .books {
     background-color: var(--message-color);
   }
 
-  .nav-buttons .access-count {
+  .access-count {
     position: relative;
     display: flex;
     align-items: center;
@@ -173,11 +173,46 @@ body, .books {
     padding-right: 12px;
     gap: 8px;
     height: 40px;
-    border: 1px solid #4b5563; /* Cor cinza */
+    border: 1px solid var(--green-hover-color);
     border-radius: 8px;
     background: none;
     transition: border-color 0.3s ease;
     cursor: pointer;
+  }
+
+  .header-user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .access-count:hover {
+    border-color: #6b7280; /* Cor cinza mais clara ao passar o mouse */
+  }
+  
+  .access-count.disabled {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .access-count p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f3f4f6; 
+  }
+
+  .access-count svg {
+    transition: all 0.3s ease;
+  }
+  
+  .cl-internal-1j7ahlv {
+    width: 2.5rem;
+    height: 2.5rem;
   }
   
   .nav-buttons.access-count:hover {
@@ -332,12 +367,13 @@ body, .books {
   padding: 20px 10%;
   background-color: #f8f9fa;
   border-bottom: 2px solid #ddd;
-  margin-top: 6.25rem;
+  margin-top: 70px;
+  height: 8rem;
 }
 
 /* Nome do usuário */
 .user-info h2 {
-  font-size: 22px;
+  font-size: 2rem;
   color: #333;
 }
 
@@ -349,7 +385,7 @@ body, .books {
 
 /* Texto acima da barra */
 .progress-container span {
-  font-size: 14px;
+  font-size: 1.5rem;
   color: #555;
   display: block;
   margin-bottom: 5px;
@@ -358,7 +394,7 @@ body, .books {
 /* Barra de fundo */
 .progress-bar {
   width: 100%;
-  height: 20px;
+  height: 30px;
   background-color: #e0e0e0;
   border-radius: 10px;
   overflow: hidden;
@@ -370,8 +406,9 @@ body, .books {
   height: 100%;
   background-color: #28a745;
   text-align: center;
+  justify-content: center;
   color: white;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 20px;
   border-radius: 10px;
@@ -384,11 +421,13 @@ body, .books {
       flex-direction: column;
       align-items: flex-start;
       padding: 20px;
+      gap: 20px;
+      height: auto;
   }
 
   .progress-container {
       width: 100%;
-      margin-top: 10px;
+      /* margin-top: 10px; */
   }
 }
 

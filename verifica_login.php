@@ -1,7 +1,8 @@
 <?php
 session_start();
-if (!isset($_SESSION["user_id"]) || !isset($_SESSION["user_nome"])) {
-    header("Location: index.html"); // Redireciona para login se não estiver autenticado
+if (!isset($_SESSION["user_id"]) || empty($_SESSION["user_nome"])) {
+    session_destroy(); // Garante que nenhuma sessão inválida continue ativa
+    header("Location: index"); // Redireciona para o login
     exit();
 }
 ?>

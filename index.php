@@ -7,31 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-          <div>
-            <a href="#" class="logo">
-              <img src="./img/logo.png" alt="Logo" />
-            </a>
-          </div>
-          <div class="nav-buttons">
-              <a href="login.html" class="button enter">
-                <img 
-                  src="./img/user.svg" 
-                  alt="User Icon" 
-                  class="button-icon" 
-                  width="18" 
-                  height="18" 
-                />
-                ENTRAR
-              </a>
-  
-              <a href="register.html" class="button register">
-                CRIAR CONTA
-              </a>
-          </div>
-        </nav>
-    </header>   
+      <?php include("header.php"); ?>  
       
       <section class="hero">
         <div class="hero-overlay"></div>
@@ -182,50 +158,8 @@
         </div>
     </section>
 
-    <footer>
-        <!-- Primeira linha do footer -->
-        <div class="footer-top">
-            <!-- Esquerda: Contatos e Redes Sociais -->
-            <div class="footer-left">
-                <h3>Contatos</h3>
-                <!-- <p><img src="./img/mail.svg" alt="Email">ejc.acailandia@gmail.com</p> -->
-                <p><img src="./img/whatsapp.svg" alt="WhatsApp">(61) 99834-7992</p>
-                <p><img src="./img/whatsapp.svg" alt="WhatsApp">(99) 99141-8730</p>
-    
-                <h3>Siga-nos</h3>
-                <a href="https://www.instagram.com/adventistas_laranjeiras2/" target="_blank" class="instagram-icon">
-                    <img src="./img/instagram.svg" alt="Instagram">
-                </a>
-            </div>
+    <?php include("footer.php"); ?>
 
-            <img src="./img/logo.png" alt="Logo EJC" class="footer-logo">
-    
-            <!-- Direita: Portal ADM e Logo do Desenvolvedor -->
-            <div class="footer-right">
-                <h3>Acessos</h3>
-                <a href="#">Fazer Login <img src="./img/link.svg" alt="Link"></a>
-                <a href="">Criar Conta <img src="./img/link.svg" alt="Link"></a>
-                <div class="footer-dev">
-                    <p>Desenvolvido por:</p>
-                    <a href="https://sergio-slima.github.io/page-links" target="_blank"><p class="devapp">Dev<span>App</span></p></a>
-                </div>
-            </div>
-        </div>
-    
-        <!-- Linha horizontal separando as duas partes -->
-        <hr>
-    
-        <!-- Segunda linha do footer -->
-        <div class="footer-bottom">
-            <p><span>&copy; IV EJC Açailândia 2025.</span> Todos os direitos reservados.</p> 
-        </div>
-        <button id="scrollToTopButton">
-            <svg fill="none" height="16" viewBox="0 0 12 8" width="16" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.272 8L6 2.79868L10.728 8L12 6.60066L6 0L0 6.60066L1.272 8Z" fill="#E1E1E6"></path>
-            </svg>
-        </button>
-    </footer>
-
-      <script src="./scripts.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>

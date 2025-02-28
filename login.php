@@ -14,10 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($usuario && password_verify($senha, $usuario["senha"])) {
         $_SESSION["user_id"] = $usuario["id"];
         $_SESSION["user_nome"] = $usuario["nome"];
-        header("Location: books.html");
+        header("Location: books");
         exit;
     } else {
-        echo "<script>alert('E-mail ou senha incorretos!'); window.location.href='login.html';</script>";
+        echo "<script>alert('E-mail ou senha incorretos!'); window.location.href='login_page';</script>";
     }
 }
 ?>

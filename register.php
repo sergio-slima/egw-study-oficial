@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
 
     if ($stmt->rowCount() > 0) {
-        echo "<script>alert('E-mail já cadastrado!'); window.location.href='register.html';</script>";
+        echo "<script>alert('E-mail já cadastrado!'); window.location.href='register_page';</script>";
         exit;
     }
 
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(":senha", $senha);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Cadastro realizado com sucesso! Faça login.'); window.location.href='login.html';</script>";
+        echo "<script>alert('Cadastro realizado com sucesso! Faça login.'); window.location.href='login_page';</script>";
     } else {
         echo "<script>alert('Erro ao cadastrar usuário!');</script>";
     }
