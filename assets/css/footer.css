@@ -1,0 +1,202 @@
+/* **************************************************** */
+/* FOOTER */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white-color);
+    position: relative; 
+    /* height: 10rem; */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Primeira linha do footer */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+/* Coluna da esquerda (Contatos e Redes Sociais) */
+.footer-left {
+    order: 1;
+    text-align: left;
+    /* width: 25%; */
+}
+
+.footer-left h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--green-color);
+}
+
+.footer-left p {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+/* Ícones de redes sociais */
+.footer-top img {
+    width: 1.2rem;
+    transition: transform 0.3s;
+}
+
+.footer-left .instagram-icon img {
+    width: 2rem;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.footer-left a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-top .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    order: 2;
+    width: 24rem;
+}
+
+/* Coluna da direita (Portal ADM e Desenvolvedor) */
+.footer-right {
+    order: 3;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    line-height: 2;   
+    /* width: 25%;  */
+}
+
+.footer-right h3 {
+    color: var(--green-color);
+    font-size: 1.2rem;
+}
+
+.footer-right a {
+    display:flex;
+    justify-content: end;    
+    color: var(--white-color);
+    text-decoration: none;
+    text-align: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.footer-right .footer-dev {
+    margin-top: 30px;
+    line-height: 1.2;    
+}
+
+.footer-right .devapp {
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: var(--white-color);
+    margin-top: 10px;
+}
+
+.footer-right p {
+    font-size: 1rem;
+}
+
+.footer-right .footer-dev p {
+    color: var(--green-color);
+}
+
+.footer-right .footer-dev .devapp {
+    color:black;
+}
+
+.footer-right .footer-dev p,
+.footer-right .devapp span {
+    color: var(--green-hover-color);
+    font-weight: bold;
+}
+
+/* Linha horizontal separando as seções */
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--white-color);
+    margin: 10px 10%;
+}
+
+/* Segunda linha do footer */
+.footer-bottom {
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+.footer-bottom span {
+    color: var(--green-color);
+}
+
+footer #scrollToTopButton {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    padding: 5px 12px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer #scrollToTopButton:hover {
+    background-color: var(--green-hover-color);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-left, .footer-right {
+        text-align: center;        
+        margin-bottom: 15px;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+        justify-content: center;
+    }
+
+    .footer-top a {
+        justify-content: center;
+    }
+
+    .footer-top .footer-logo {
+        order: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-left {
+        order: 2;
+    }
+
+    .footer-right {
+        order: 3;
+    }
+}

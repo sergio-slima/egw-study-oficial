@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGW Study</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
 <body>
     <footer>
@@ -14,22 +14,22 @@
             <div class="footer-left">
                 <h3>Contatos</h3>
                 <!-- <p><img src="./img/mail.svg" alt="Email">ejc.acailandia@gmail.com</p> -->
-                <p><img src="./img/whatsapp.svg" alt="WhatsApp">(61) 99834-7992</p>
-                <p><img src="./img/whatsapp.svg" alt="WhatsApp">(99) 99141-8730</p>
+                <p><img src="../assets/img/whatsapp.svg" alt="WhatsApp">(61) 99834-7992</p>
+                <p><img src="../assets/img/whatsapp.svg" alt="WhatsApp">(99) 99141-8730</p>
     
                 <h3>Siga-nos</h3>
                 <a href="https://www.instagram.com/adventistas_laranjeiras2/" target="_blank" class="instagram-icon">
-                    <img src="./img/instagram.svg" alt="Instagram">
+                    <img src="../assets/img/instagram.svg" alt="Instagram">
                 </a>
             </div>
 
-            <img src="./img/logo.png" alt="Logo EJC" class="footer-logo">
+            <img src="../assets/img/logo.png" alt="Logo EJC" class="footer-logo">
     
             <!-- Direita: Portal ADM e Logo do Desenvolvedor -->
             <div class="footer-right">
                 <h3>Acessos</h3>
-                <a href="#">Fazer Login <img src="./img/link.svg" alt="Link"></a>
-                <a href="">Criar Conta <img src="./img/link.svg" alt="Link"></a>
+                <a href="#">Fazer Login <img src="../assets/img/link.svg" alt="Link"></a>
+                <a href="">Criar Conta <img src="../assets/img/link.svg" alt="Link"></a>
                 <div class="footer-dev">
                     <p>Desenvolvido por:</p>
                     <a href="https://sergio-slima.github.io/page-links" target="_blank"><p class="devapp">Dev<span>App</span></p></a>

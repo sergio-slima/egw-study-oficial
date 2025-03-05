@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGW Study</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
 </head>
 <body>
 <header class="header">
     <nav class="nav">
         <div>
-            <a href="index.php" class="logo">
-                <img src="./img/logo.png" alt="Logo" />
+            <a href="../index" class="logo">
+                <img src="../assets/img/logo.png" alt="Logo" />
             </a>
         </div>
         <div class="nav-buttons">
             <?php if (isset($_SESSION["user_id"])): ?>
                 <div class="nav-buttons">
               <div className="header-user access-count" aria-haspopup="dialog">
-                  <img src="./img/fire.svg" alt="Fire" />
+                  <img src="../assets/img/fire.svg" alt="Fire" />
                     <p>0</p>
               </div>
 
-            <a href="logout" class="button logout">
+            <a href="../auth/logout" class="button logout">
                 <img 
-                src="./img/logout.svg" 
+                src="../assets/img/logout.svg" 
                 alt="User Icon" 
                 class="button-icon" 
                 width="18" 
@@ -35,9 +35,9 @@
             </a>
           </div>
             <?php else: ?>
-                <a href="login_page" class="button enter">
+                <a href="../pages/login_page" class="button enter">
                     <img 
-                    src="./img/user.svg" 
+                    src="../assets/img/user.svg" 
                     alt="User Icon" 
                     class="button-icon" 
                     width="18" 
@@ -45,7 +45,7 @@
                     />
                     Entrar
                 </a>
-                <a href="register_page" class="button register">Criar Conta</a>
+                <a href="../pages/register_page" class="button register">Criar Conta</a>
             <?php endif; ?>
         </div>
     </nav>

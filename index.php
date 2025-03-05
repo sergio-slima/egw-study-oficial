@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGW Study</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
-      <?php include("header.php"); ?>  
+      <?php include("./includes/header.php"); ?>  
       
       <section class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <div class="hero-left">
             <div class="hero-badge">
-              <img src="./img/iasd.png" alt="Icon" class="badge-icon" />
+              <img src="./assets/img/iasd.png" alt="Icon" class="badge-icon" />
               <span class="badge-text">Curso de Leitura do <br/> Espírito de Profecia</span>
             </div>
   
@@ -24,13 +26,13 @@
   
             <div class="hero-features">
                 <div class="feature">
-                  <img src="./img/icon-certificate.png" alt="Com Certificado" class="feature-icon" />
+                  <img src="./assets/img/icon-certificate.png" alt="Com Certificado" class="feature-icon" />
                   <span class="feature-text">Aprendizado Grátis Com Certificado</span>
                 </div>
               </div>
             </div>
           <div class="hero-right">
-            <img src="./img/ellen.png" alt="Ilustração" class="hero-illustration" />
+            <img src="./assets/img/ellen.png" alt="Ilustração" class="hero-illustration" />
           </div>
         </div>
   
@@ -38,8 +40,8 @@
             <div class="scroll-line"></div>
             <div>
                 <button aria-label='Ir para próxima seção' class='button-down'>
-                    <img alt='' loading='lazy' decoding='async' data-nimg='1' class='bt-img-1' src="./img/down.svg" />
-                    <img alt='' loading='lazy' decoding='async' data-nimg='1' class='bt-img-2' src="./img/down.svg" />
+                    <img alt='' loading='lazy' decoding='async' data-nimg='1' class='bt-img-1' src="./assets/img/down.svg" />
+                    <img alt='' loading='lazy' decoding='async' data-nimg='1' class='bt-img-2' src="./assets/img/down.svg" />
                 </button>  
             </div>
         </div>
@@ -87,16 +89,16 @@
                     <div class="skills-carousel">
                         <!-- Imagem Grande -->
                         <div class="carousel-image-container">
-                            <img id="carouselImage" src="./img/1.png" alt="Livro 1" class="carousel-image">
+                            <img id="carouselImage" src="../img/1.png" alt="Livro 1" class="carousel-image">
                         </div>
                 
                         <!-- Miniaturas na versão desktop -->
                         <div class="carousel-thumbnails">
-                            <img src="./img/1.png" alt="Livro 1" class="thumbnail active" onclick="changeImage(0)">
-                            <img src="./img/2.png" alt="Livro 2" class="thumbnail" onclick="changeImage(1)">
-                            <img src="./img/3.png" alt="Livro 3" class="thumbnail" onclick="changeImage(2)">
-                            <img src="./img/4.png" alt="Livro 4" class="thumbnail" onclick="changeImage(3)">
-                            <img src="./img/5.png" alt="Livro 5" class="thumbnail" onclick="changeImage(4)">
+                            <img src="./assets/img/1.png" alt="Livro 1" class="thumbnail active" onclick="changeImage(0)">
+                            <img src="./assets/img/2.png" alt="Livro 2" class="thumbnail" onclick="changeImage(1)">
+                            <img src="./assets/img/3.png" alt="Livro 3" class="thumbnail" onclick="changeImage(2)">
+                            <img src="./assets/img/4.png" alt="Livro 4" class="thumbnail" onclick="changeImage(3)">
+                            <img src="./assets/img/5.png" alt="Livro 5" class="thumbnail" onclick="changeImage(4)">
                         </div>
                 
                         <!-- Navegação por setas no mobile -->
@@ -114,7 +116,7 @@
                 <h4 class="item-title">Certificado de Conclusão</h4>
                 <p>Certificação reconhecida para destacar seus conhecimentos espirituais e enriquecer sua trajetória de crescimento pessoal</p>
                 <div class='item-certificate'>
-                  <img src="./img/certificado.png" alt='Certificado de conclusão' />
+                  <img src="./assets/img/certificado.png" alt='Certificado de conclusão' />
                 </div>
               </div>
             </div>
@@ -129,7 +131,7 @@
                 
                 <div class="discover-card-header">
                   <img 
-                    src="./img/icon.png"
+                    src="./assets/img/icon.png"
                     alt="Discover" 
                     class="Logo" 
                     width="64" 
@@ -145,7 +147,7 @@
                   class="discover-button"
                 >
                   <img 
-                    src="./img/user-plus.svg" 
+                    src="./assets/img/user-plus.svg" 
                     alt="User Plus Icon" 
                     class="discover-button-icon" 
                     width="24" 
@@ -158,8 +160,8 @@
         </div>
     </section>
 
-    <?php include("footer.php"); ?>
+    <?php include("./includes/footer.php"); ?>
 
-    <script src="./scripts.js"></script>
+    <script src="./assets/js/global.js"></script>
 </body>
 </html>
