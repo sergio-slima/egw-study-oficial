@@ -14,22 +14,22 @@
             <div class="footer-left">
                 <h3>Contatos</h3>
                 <!-- <p><img src="./img/mail.svg" alt="Email">ejc.acailandia@gmail.com</p> -->
-                <p><img src="../assets/img/whatsapp.svg" alt="WhatsApp">(61) 99834-7992</p>
-                <p><img src="../assets/img/whatsapp.svg" alt="WhatsApp">(99) 99141-8730</p>
+                <p><img src="./assets/img/whatsapp.svg" alt="WhatsApp">(61) 99834-7992</p>
+                <p><img src="./assets/img/whatsapp.svg" alt="WhatsApp">(99) 99141-8730</p>
     
                 <h3>Siga-nos</h3>
                 <a href="https://www.instagram.com/adventistas_laranjeiras2/" target="_blank" class="instagram-icon">
-                    <img src="../assets/img/instagram.svg" alt="Instagram">
+                    <img src="./assets/img/instagram.svg" alt="Instagram">
                 </a>
             </div>
 
-            <img src="../assets/img/logo.png" alt="Logo EJC" class="footer-logo">
+            <img src="./assets/img/logo.png" alt="Logo EJC" class="footer-logo">
     
             <!-- Direita: Portal ADM e Logo do Desenvolvedor -->
             <div class="footer-right">
                 <h3>Acessos</h3>
-                <a href="#">Fazer Login <img src="../assets/img/link.svg" alt="Link"></a>
-                <a href="">Criar Conta <img src="../assets/img/link.svg" alt="Link"></a>
+                <a href="login_page">Fazer Login <img src="./assets/img/link.svg" alt="Link"></a>
+                <a href="register_page">Criar Conta <img src="./assets/img/link.svg" alt="Link"></a>
                 <div class="footer-dev">
                     <p>Desenvolvido por:</p>
                     <a href="https://sergio-slima.github.io/page-links" target="_blank"><p class="devapp">Dev<span>App</span></p></a>
@@ -42,7 +42,7 @@
     
         <!-- Segunda linha do footer -->
         <div class="footer-bottom">
-            <p><span>&copy; IV EJC Açailândia 2025.</span> Todos os direitos reservados.</p> 
+            <p><span>&copy; EGW Study 2025.</span> Todos os direitos reservados.</p> 
         </div>
         <button id="scrollToTopButton">
             <svg fill="none" height="16" viewBox="0 0 12 8" width="16" xmlns="http://www.w3.org/2000/svg">

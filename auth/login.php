@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("../conexao.php"); // Inclui a conexão
+require_once("../../conexao.php"); // Inclui a conexão
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST["email"]);

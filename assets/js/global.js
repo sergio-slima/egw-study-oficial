@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Lista de imagens
 const images = [
-    "../img/1.png",
-    "../img/2.png",
-    "../img/3.png",
-    "../img/4.png",
-    "../img/5.png"
+    "./assets/img/1.png",
+    "./assets/img/2.png",
+    "./assets/img/3.png",
+    "./assets/img/4.png",
+    "./assets/img/5.png"
 ];
 
 let currentImageIndex = 0;

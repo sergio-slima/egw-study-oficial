@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - EGW Study</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
     <div class="auth-container">
         <div class="auth-form">
-            <img src="./img/logo.png" alt="Logo EGW Study" class="auth-logo">
+            <a href="index" class="logo">
+                <img src="./assets/img/logo.png" alt="Logo EGW Study" class="auth-logo">
+            </a>
             <h2>LOGIN</h2>
             <form id="loginForm" action="login.php" method="POST">
                 <input type="email" id="email" name="email" placeholder="E-mail" required>
@@ -20,9 +25,10 @@
             <p>Não tem uma conta? <a href="register_page">Cadastre-se</a></p>
         </div>
         <div class="auth-image">
-            <img src="./img/background.jpg" alt="Imagem ilustrativa">
+            <img src="./assets/img/background.jpg" alt="Imagem ilustrativa">
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>

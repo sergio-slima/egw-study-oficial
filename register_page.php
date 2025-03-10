@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - EGW Study</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
     <div class="auth-container">
         <div class="auth-form">
-            <img src="./img/logo.png" alt="Logo EGW Study" class="auth-logo">
+            <a href="index" class="logo">
+                <img src="./assets/img/logo.png" alt="Logo EGW Study" class="auth-logo">
+            </a>
             <h2>CADASTRO</h2>
             <form id="registerForm" action="register.php" method="POST">
                 <input type="text" name="nome" placeholder="Nome Completo" required>                
@@ -42,12 +47,13 @@
 
                 <button type="submit">Cadastrar</button>
             </form>
-            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+            <p>Já tem uma conta? <a href="login_page">Faça login</a></p>
         </div>
         <div class="auth-image">
-            <img src="./img/background.jpg" alt="Imagem ilustrativa">
+            <img src="./assets/img/background.jpg" alt="Imagem ilustrativa">
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>

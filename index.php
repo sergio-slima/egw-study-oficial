@@ -143,7 +143,7 @@
                 </div>
       
                 <a 
-                  href="/sign-up" 
+                  href="register_page" 
                   class="discover-button"
                 >
                   <img 

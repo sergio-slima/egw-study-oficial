@@ -29,32 +29,32 @@
             <!-- Livro acessível -->
             <div class="book accessible">
                 <a href="book1.php">
-                    <img src="./img/1.png" alt="Livro 1">
+                    <img src="./assets/img/1.png" alt="Livro 1">
                     <p>O Grande Conflito</p>
                 </a>
             </div>
 
             <!-- Livros bloqueados -->
             <div class="book locked">
-                <img src="./img/2.png" alt="Livro 2">
+                <img src="./assets/img/2.png" alt="Livro 2">
                 <div class="lock-icon">🔒</div>
                 <p>Patriarcas e Profetas</p>
             </div>
 
             <div class="book locked">
-                <img src="./img/3.png" alt="Livro 3">
+                <img src="./assets/img/3.png" alt="Livro 3">
                 <div class="lock-icon">🔒</div>
                 <p>Profetas e Reis</p>
             </div>
 
             <div class="book locked">
-                <img src="./img/4.png" alt="Livro 4">
+                <img src="./assets/img/4.png" alt="Livro 4">
                 <div class="lock-icon">🔒</div>
                 <p>O Desejado de Todas as Nações</p>
             </div>
 
             <div class="book locked">
-                <img src="./img/5.png" alt="Livro 5">
+                <img src="./assets/img/5.png" alt="Livro 5">
                 <div class="lock-icon">🔒</div>
                 <p>Atos dos Apóstolos</p>
             </div>
