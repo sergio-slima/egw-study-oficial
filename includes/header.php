@@ -25,7 +25,7 @@
                     <p>0</p>
               </div>
 
-            <a href="./auth/logout" class="button logout">
+            <a href="logout" class="button logout">
                 <img 
                 src="./assets/img/logout.svg" 
                 alt="User Icon" 

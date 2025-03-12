@@ -12,9 +12,11 @@ html {
     --background-color-2: #121214;
     --background-color-3: #080707;
     --white-color: #E1E1E6;
+    --read-color: #f8f9fa;
     --black-color: #000000;
     --text-color: #A8A8B3;
     --message-color: #FF9900;
+    --grey-color: #333;
 }
 
 * {

@@ -1,4 +1,4 @@
-<?php require_once("verifica_login.php"); ?>
+<?php require_once("./auth/verifica_login.php"); ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/books.css">
 </head>
 <body>
     <?php include("./includes/header.php"); ?>  
@@ -28,7 +31,7 @@
         <div class="book-grid">
             <!-- Livro acessível -->
             <div class="book accessible">
-                <a href="book1.php">
+                <a href="pages/book1.php">
                     <img src="./assets/img/1.png" alt="Livro 1">
                     <p>O Grande Conflito</p>
                 </a>
@@ -62,6 +65,7 @@
     </section>
 
 
-    <script src="./scripts.js"></script>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/books.js"></script>
 </body>
 </html>
